@@ -2,6 +2,7 @@
 layout: post
 description: I will share my learning from the root of world events
 title: Blog Init
+categories: info
 ---
 
 I've been playing with the idea for some time and today I finally start my own blog.
