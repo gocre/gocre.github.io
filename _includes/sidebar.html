@@ -1,0 +1,24 @@
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <img width="150" height="150" class="portrait" src="/public/portrait.jpg" alt=""/>
+  </div>
+  <div class="sidebar-item">
+    <p>
+      Web Engineer - Likes JavaScript, Node.js, AngularJS and NoSQL databases.
+    </p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="http://minhnt.com/">Blog</a>
+    <a class="sidebar-nav-item" href="https://github.com/truongminh" target="_blank">GitHub</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>

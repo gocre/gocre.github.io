@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+
+# desc: no /:year/:month/:day/
+permalink:        /:title
+
+# Setup
+title:            Minh
+description:      My private blog about web engineering. Expect posts about JavaScript, Node.js, AngularJS and NoSQL databases.
+url:              http://gocre.com/
+
+author:
+  name:           Goc Re
+  email:          gocre@outlook.com
+
+# desc: maximum number of Posts you’d like to be displayed per page
+paginate:         100
+
+exclude:          [node_modules, Gruntfile.js, package.json]
