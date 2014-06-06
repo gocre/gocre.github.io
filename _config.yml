@@ -5,11 +5,11 @@ pygments:         true
 # Permalinks
 
 # desc: no /:year/:month/:day/
-permalink:        /:title
+permalink:        /:categories/:title
 
 # Setup
-title:            Minh
-description:      My private blog about web engineering. Expect posts about JavaScript, Node.js, AngularJS and NoSQL databases.
+title:            Gocre
+description:      Learn from the Root
 url:              http://gocre.com/
 
 author:
