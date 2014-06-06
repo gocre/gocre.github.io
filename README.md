@@ -1,4 +1,4 @@
-truongminh.github.io
-====================
+gocre.github.io
+===============
 
-Some posts on history
+Learn from the root
